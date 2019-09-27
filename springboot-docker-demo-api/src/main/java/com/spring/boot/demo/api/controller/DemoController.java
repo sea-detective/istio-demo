@@ -14,7 +14,7 @@ public class DemoController {
 
     @RequestMapping("/springboot/demo/{name}")
     public String sayHello(@PathVariable(name = "name") String name) {
-        return "Hello " + name;
+        return "Hello " + name + " v2";
     }
 
 }
