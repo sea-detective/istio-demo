@@ -32,4 +32,3 @@ hs_err_pid*
 /spring-boot-demo-api/.gitignore
 /spring-boot-demo-api/mvnw
 /spring-boot-demo-api/spring-boot-demo-api.iml
-/spring-boot-demo-api/target/
