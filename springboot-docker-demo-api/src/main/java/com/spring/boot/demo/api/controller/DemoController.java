@@ -17,4 +17,9 @@ public class DemoController {
         return "Hello " + name + " v2";
     }
 
+    @RequestMapping("/productpage")
+    public String productpage() {
+        return "Hello productpage";
+    }
+
 }
