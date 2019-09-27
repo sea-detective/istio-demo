@@ -17,9 +17,8 @@ RUN mkdir -p /usr/share/maven /usr/share/maven/ref \
   && ln -s /usr/share/maven/bin/mvn /usr/bin/mvn
 
 
+WORKDIR .
 COPY / /
 RUN mvn clean install -Dmaven.test.skip
-
-COPY / /
 COPY /spring-boot-demo-api/target/spring-boot-demo-api-1.0-SNAPSHOT.jar spring-boot-demo.jar
 ENTRYPOINT ["java","-jar","/spring-boot-demo.jar"]
