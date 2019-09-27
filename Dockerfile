@@ -20,5 +20,5 @@ FROM openjdk:8-jdk-slim
 #COPY / /
 #WORKDIR /
 #RUN mvn package -Dmaven.test.skip
-COPY /spring-boot-demo-api/target/spring-boot-demo-api-1.0-SNAPSHOT.jar spring-boot-demo.jar
-ENTRYPOINT ["java","-jar","/spring-boot-demo.jar"]
+COPY /springboot-docker-demo-api/target/springboot-docker-demo-api-1.0-SNAPSHOT.jar springboot-docker-demo.jar
+ENTRYPOINT ["java","-jar","/springboot-docker-demo.jar"]

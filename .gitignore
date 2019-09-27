@@ -25,9 +25,12 @@ hs_err_pid*
 
 
 /.idea/
-/spring-boot-demo-api/HELP.md
-/spring-boot-demo-api/mvnw.cmd
-/spring-boot-demo-api/.mvn/
-/spring-boot-demo-api/.gitignore
-/spring-boot-demo-api/mvnw
-/spring-boot-demo-api/spring-boot-demo-api.iml
+/springboot-docker-demo-api/target/generated-test-sources/
+/springboot-docker-demo-api/target/classes/
+/springboot-docker-demo-api/target/test-classes/
+/springboot-docker-demo-api/target/springboot-docker-demo-api-1.0-SNAPSHOT.jar.original
+/springboot-docker-demo-api/target/maven-status/
+/springboot-docker-demo-api/target/surefire-reports/
+/springboot-docker-demo-api/target/maven-archiver/
+/springboot-docker-demo-api/target/generated-sources/
+/springboot-docker-demo-api/springboot-docker-demo-api.iml
