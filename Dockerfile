@@ -19,5 +19,7 @@ RUN mkdir -p /usr/share/maven /usr/share/maven/ref \
 
 COPY / /
 RUN mvn clean install
+
+COPY / /
 COPY /spring-boot-demo-api/target/spring-boot-demo-api-1.0-SNAPSHOT.jar spring-boot-demo.jar
 ENTRYPOINT ["java","-jar","/spring-boot-demo.jar"]
