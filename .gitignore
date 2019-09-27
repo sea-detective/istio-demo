@@ -26,9 +26,10 @@ hs_err_pid*
 
 
 /.idea/
-/spring-boot-demo-api/target/
 /spring-boot-demo-api/HELP.md
 /spring-boot-demo-api/mvnw.cmd
-/spring-boot-demo-api/mvnw
 /spring-boot-demo-api/.mvn/
 /spring-boot-demo-api/.gitignore
+/spring-boot-demo-api/mvnw
+/spring-boot-demo-api/spring-boot-demo-api.iml
+/spring-boot-demo-api/target/
