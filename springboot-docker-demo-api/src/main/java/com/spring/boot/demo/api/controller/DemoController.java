@@ -22,4 +22,9 @@ public class DemoController {
         return "Hello productpage";
     }
 
+    @RequestMapping("/integrationTest")
+    public String integrationTest() {
+        return "Hello integrationTest";
+    }
+
 }
