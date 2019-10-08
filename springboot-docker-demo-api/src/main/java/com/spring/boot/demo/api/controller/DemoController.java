@@ -24,7 +24,7 @@ public class DemoController {
 
     @RequestMapping("/integrationTest")
     public String integrationTest() {
-        return "Hello integrationTest";
+        return "Hello integrationTest v2\n";
     }
 
 }
