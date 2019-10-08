@@ -14,12 +14,12 @@ public class DemoController {
 
     @RequestMapping("/springboot/demo/{name}")
     public String sayHello(@PathVariable(name = "name") String name) {
-        return "Hello " + name + " v3\n";
+        return "Hello " + name + " v2\n";
     }
 
     @RequestMapping("/productpage")
     public String productpage() {
-        return "Hello productpage";
+        return "Hello productpage\n";
     }
 
     @RequestMapping("/integrationTest")
